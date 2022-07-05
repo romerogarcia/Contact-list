@@ -1,0 +1,38 @@
+.contact {
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../../images/background.png");
+background-size: contain; 
+  }
+
+  &__item {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-top: 10px;
+    width: 20rem;
+    list-style: none;
+    border-radius: 0.5rem;
+    border: 1px solid #ddd;
+    background-color: #89a0a5;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-weight: bold;
+    color: #fff;
+
+    & > * {
+      margin: 3px 0;
+    }
+  }
+
+  &__label {
+    display: inline-block;
+    font-weight: normal;
+    width: 5rem;
+    color: #fff;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+}
